@@ -4,24 +4,22 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Réalisations - Situations Professionnelles</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>STAGE - DPMM Tours</title>
+  <meta content="Stage de six semaines à la Direction du Personnel Militaire de la Marine à Tours" name="description">
+  <meta content="DPMM, stage, Java Web, Spring Boot, PostgreSQL" name="keywords">
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap"
     rel="stylesheet">
-
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
@@ -39,7 +37,7 @@
       <a href="https://www.instagram.com/arthur_dvv/" class="instagram"><i class="bi bi-instagram"></i></a>
       <a href="https://fr.linkedin.com/in/arthur-duvoux-4a2b052b9" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
-    <nav id="navmenu" class="navmenu" role="navigation" aria-label="Menu principal">
+    <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="index.html#hero" class="active"><i class="bi bi-house navicon"></i> Accueil</a></li>
         <li><a href="index.html#about"><i class="bi bi-person navicon"></i> À propos</a></li>
@@ -49,7 +47,7 @@
         <li><a href="index.html#portfolio"><i class="bi bi-clipboard2-check navicon"></i> Situations Professionnelles</a></li>
         <li><a href="index.html#gestion"><i class="bi bi-hdd-stack navicon"></i> Gestion du patrimoine</a></li>
         <li><a href="index.html#services"><i class="bi bi-book navicon"></i> Veilles Technologiques</a></li>
-        <li><a href="index.html#certification"><i class="bi bi-file-earmark-post navicon"></i> Parcours de certification</a></li>
+        <li><a href="index.html#certification"><i class="bi bi-file-earmark-post navicon"></i> Certifications</a></li>
         <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
@@ -58,114 +56,116 @@
   <main class="main">
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Contexte Barec</h1>
+        <h1 class="mb-2 mb-lg-0">Stage DPMM Tours – Gestion des stagiaires</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Accueil</a></li>
-            <li class="current">Contexte Barec</li>
+            <li class="current">DPMM Tours</li>
           </ol>
         </nav>
       </div>
     </div>
 
+    <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Première ligne : slider + info & contexte -->
         <div class="row gy-4">
+          <!-- Slider -->
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper init-swiper">
               <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 600,
-                "autoplay": {"delay": 7000},
+                "autoplay": { "delay": 7000 },
                 "slidesPerView": "auto",
-                "pagination": {"el": ".swiper-pagination", "type": "bullets", "clickable": true}
+                "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
               }
               </script>
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/techno_barec.png" alt="Techno utilisé lors de la mission">
+                  <img src="assets/img/portfolio/rapport_activite_dpmm.png" alt="Rapport d’activités DPMM"
+                    style="width:722px; height:410px; object-fit:cover;">
+                  <br>
+                  <a href="assets/img/portfolio/rapport_activite_dpmm.png" title="Accéder au rapport d'activité" class="details-link">
+                    <i class="bi bi-link-45deg"></i> Accéder à mon rapport d'activité
+                  </a>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/barec_doc.jpg" alt="documentation technique">
-                  <a href="https://drive.google.com/file/d/1Hi9ouyioZ-hwB_AShjTZNfdUWbGpK0An/view?usp=sharing"
-                    class="details-link"><i class="bi bi-link-45deg">Accéder à la documentation</i></a>
+                  <img src="assets/img/portfolio/diagramme_dpmm.png" alt="Diagramme de séquence"
+                    style="width:722px; height:410px; object-fit:cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/schéma bdd.jpg" alt="schéma bdd">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/pageAccueil.png" alt="Visuel du site">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FormulaireAjoutLotPCB.png" alt="Formulaire ajout pcb">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/trello_barec.png" alt="Capture du trello de l'application">
+                  <img src="assets/img/portfolio/wireframe_dpmm.png" alt="Wireframe de l’application"
+                    style="width:722px; height:410px; object-fit:cover;">
                 </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
 
+          <!-- Info & Contexte -->
           <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Informations sur le projet</h3>
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Stage de 2ᵉ année :</h3>
               <ul>
-                <li><strong>Catégorie :</strong> Application web - Barec</li>
-                <li><strong>Client :</strong> Barec Automatismes</li>
-                <li><strong>Date du projet :</strong> 2024</li>
-                <li><strong>Environnement :</strong> NetBeans, PHP, SQL, HTML/CSS/JS, Bootstrap, jQuery, MariaDB, Trello
+                <li><strong>Entreprise</strong> : Direction du Personnel Militaire de la Marine (DPMM)</li>
+                <li><strong>Durée</strong> : 6 semaines</li>
+                <li><strong>Lieu</strong> : 60 ter boulevard Jean Royer, 37000 Tours</li>
+                <li><strong>Environnement</strong> :
+                  <br>Java / Spring Boot
+                  <br>PostgreSQL
+                  <br>PICSEL (VM)
+                  <br>GitLab
                 </li>
               </ul>
             </div>
-
-            <div class="portfolio-description mt-4">
+            <div class="portfolio-description mt-4" data-aos="fade-up" data-aos-delay="300">
               <h2>Contexte</h2>
-              <p>Barec Automatismes est une entreprise spécialisée dans la fabrication de composants PCB. Ces composants
-                électroniques nécessitent un stockage dans des conditions précises pour préserver leur qualité. Une
-                application web a donc été demandée afin d’automatiser le suivi et la gestion de ces conditions.</p>
+              <p>
+                Durant six semaines, j’ai commencé  la conception d'une application web pour remplacer les fichiers Excel de suivi des stagiaires, répondant aux contraintes de sécurité et de confidentialité de l’État.
+              </p>
             </div>
           </div>
         </div>
 
+        <!-- Deuxième ligne : missions + compétences -->
         <div class="row gy-4 mt-4">
+          <!-- Missions -->
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="200">
-              <h2>Missions</h2>
-              <p><strong>Mission 1 : Découverte de Bootstrap</strong><br>
-                Création d’une page web avec barre de navigation et formulaire pour découvrir le framework.</p>
-              <p><strong>Mission 2 : Base de données bd_barec</strong><br>
-                Conception de la base de données, documentation technique et scripts SQL.</p>
-              <p><strong>Mission 3 : Initiation MVC</strong><br>
-                Projet sous NetBeans pour explorer le pattern Modèle-Vue-Contrôleur et ses bonnes pratiques.</p>
-              <p><strong>Mission 4 : Architecture</strong><br>
-                Structuration MVC et Bootstrap : organisation des fichiers et formulaire d’authentification.</p>
-              <p><strong>Mission 5 : Rendu de l’application</strong><br>
-                Démonstration de la fonctionnalité développée. Projet non finalisé suite au départ des collaborateurs.
-              </p>
+              <h2>Missions réalisées</h2>
+              <p><strong>Mission 1 :</strong> Rédaction du cahier des charges et modélisation du schéma de données PostgreSQL.</p>
+              <p><strong>Mission 2 :</strong> Élaboration des diagrammes de séquence et wireframes du dashboard.</p>
+              <p><strong>Mission 3 :</strong> Configuration de l’environnement PICSEL (VM) et déploiement de PostgreSQL.</p>
+              <p><strong>Mission 4 :</strong> Développement des API REST avec Spring Boot (CRUD stagiaires).</p>
+              <p><strong>Mission 5 :</strong> Rédaction de la documentation utilisateur et technique.</p>
+              <p><strong>Mission 6 :</strong> Tests, jeux de données et présentation finale aux tuteurs.</p>
             </div>
           </div>
 
+          <!-- Compétences mobilisées -->
           <div class="col-lg-12">
             <h2>Compétences mobilisées</h2>
             <div class="table-responsive">
               <table class="table table-bordered text-center align-middle">
                 <thead class="table-dark">
                   <tr>
-                    <th>Projet - Barec Automatismes</th>
+                    <th>DPMM Tours – Semestre 4 – Java/Spring Boot</th>
                     <th>Gérer le patrimoine informatique</th>
                     <th>Répondre aux incidents et demandes d’évolution</th>
-                    <th>Développer la présence en ligne</th>
                     <th>Travailler en mode projet</th>
-                    <th>Mettre à disposition un service</th>
+                    <th>Développer un service</th>
+                    <th>Documenter et former les utilisateurs</th>
                     <th>Organiser son développement professionnel</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Mise en place de la base de données bd_barec</strong></td>
-                    <td>✔️</td>
+                    <td><strong>Création d’un cahier des charges pour l’application gestion_flux</strong></td>
+                    <td></td>
                     <td>✔️</td>
                     <td></td>
                     <td>✔️</td>
@@ -173,36 +173,45 @@
                     <td></td>
                   </tr>
                   <tr>
-                    <td><strong>Développement des fonctionnalités « Gestion PCB »</strong></td>
+                    <td><strong>Mise en place de la base de données gestion_flux</strong></td>
+                    <td>✔️</td>
+                    <td></td>
                     <td></td>
                     <td>✔️</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Création de la maquette de l’application</strong></td>
+                    <td></td>
                     <td>✔️</td>
+                    <td></td>
                     <td>✔️</td>
-                    <td>✔️</td>
-                    <td>✔️</td>
+                    <td></td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
+
       </div>
-    </section>
+    </section><!-- /Portfolio Details Section -->
   </main>
 
   <footer id="footer" class="footer position-relative">
     <div class="container">
       <div class="copyright text-center">
-        <p>© <strong>Arthur DUVOUX</strong> - Tous droits réservés</p>
+        <p>© <strong>Arthur DUVOUX</strong> – Tous droits réservés</p>
       </div>
-      <div class="credits">
-        Designed by Arthur DUVOUX
-      </div>
+      <div class="credits">Designed by Arthur DUVOUX</div>
     </div>
   </footer>
 
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
   <div id="preloader"></div>
 
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
