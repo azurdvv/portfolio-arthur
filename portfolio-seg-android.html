@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -11,7 +12,8 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -38,12 +40,13 @@
       <ul>
         <li><a href="index.html#hero" class="active"><i class="bi bi-house navicon"></i> Accueil</a></li>
         <li><a href="index.html#about"><i class="bi bi-person navicon"></i> À propos</a></li>
-        <li><a href="index.html#skills"><i class="bi bi-laptop navicon"></i> Compétences</a></li>
+        <li><a href="index.html#skills"><i class="bi bi-laptop navicon"></i> Mes Compétences</a></li>
         <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Parcours</a></li>
         <li><a href="index.html#formation"><i class="bi bi-mortarboard navicon"></i> La formation</a></li>
-        <li><a href="index.html#portfolio"><i class="bi bi-clipboard2-check navicon"></i> Situations Professionnelles</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-clipboard2-check navicon"></i> Situations
+            Professionnelles</a></li>
         <li><a href="index.html#gestion"><i class="bi bi-hdd-stack navicon"></i> Gestion du patrimoine</a></li>
-        <li><a href="index.html#services"><i class="bi bi-book navicon"></i> Veille Technologique</a></li>
+        <li><a href="index.html#services"><i class="bi bi-book navicon"></i> Veilles Technologiques</a></li>
         <li><a href="index.html#certification"><i class="bi bi-file-earmark-post navicon"></i> Certifications</a></li>
         <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
@@ -79,21 +82,35 @@
               </script>
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/android_techno.png" alt="Technos utilisées">
+                  <img src="assets/img/portfolio/techno_android.png" alt="Technos utilisées">
+                  <p><em>Technos utilisées</em></p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/android_home.png" alt="Page d'accueil">
+                  <img src="assets/img/portfolio/PageAccueilAndroid.jpg" alt="Page d'accueil">
+                  <p><em>Page d'accueil</em></p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/android_wireframe.png" alt="Wireframe de l'app">
+                  <img src="assets/img/portfolio/ListeCommunes.jpg" alt="Liste des communes">
+                  <p><em>Liste des communes</em></p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/android_sequence.png" alt="Diagramme de séquence">
+                  <img src="assets/img/portfolio/ListeVannes.jpg" alt="Liste des vannes">
+                  <p><em>Liste des vannes</em></p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/android_api.png" alt="Diagramme des API REST">
+                  <img src="assets/img/portfolio/AjoutReleves_SansIndex.jpg" alt="Ajout des relevés">
+                  <p><em>Ajout des relevés</em></p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ImportDonneesAccueil.jpg" alt="Import des données">
+                  <p><em>Import des données</em></p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ModelisationBDD.png" alt="Modélisation des données">
+                  <p><em>Modélisation des données</em></p>
                 </div>
               </div>
+
               <div class="swiper-pagination"></div>
             </div>
           </div>
@@ -110,74 +127,84 @@
             </div>
             <div class="portfolio-description mt-4">
               <h2>Contexte</h2>
-              <p>Le SEG souhaitait remplacer les relevés Excel par une application mobile Android pour simplifier la saisie sur le terrain.</p>
-              <p>L'appli embarque une base SQLite et communique avec l’API REST déployée sous GlassFish.</p>
+              <p>Le SEG, en charge du captage et de la distribution d’eau potable, souhaitait moderniser la saisie
+                annuelle des index de compteurs vannes via une application mobile Android.</p>
+              <p>Développée en Java avec une librairie légère, l’appli stocke les relevés en local avec SQLite et
+                synchronise les données via des WebServices REST sous GlassFish.</p>
+
             </div>
           </div>
         </div>
-
+        <!-- Missions réalisées -->
         <div class="row gy-4 mt-4">
           <div class="col-lg-12">
-            <div class="portfolio-description">
-              <h2>Missions réalisées</h2>
-              <ul class="list-unstyled">
-                <li><i class="icofont-rounded-right"></i> <strong>Sprint 1</strong> : Mise en place des WebServices REST et de la librairie métier.</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Sprint 2</strong> : Déploiement de l’API sous GlassFish.</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Sprint 3</strong> : Création de l’application Android « appli_gest_vannes ». </li>
-                <li><i class="icofont-rounded-right"></i> <strong>Sprint 4</strong> : Tests finaux et packaging (APK).</li>
-              </ul>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="200">
+              <h2>Missions</h2>
+
+              <p><strong>Mission 1 :</strong> Mise en place des classes métiers allégées (librairie) et des WebServices
+                REST pour l’import/export entre la base embarquée Android et la base web.</p>
+              <p><strong>Mission 2 :</strong> Mise en place de la base de données embarquée et création de la page
+                d’accueil de l’application Android.</p>
+              <p><strong>Mission 3 :</strong> Enregistrement des données d’un compteur Vanne et implémentation de la
+                fonctionnalité de relevé des consommations.</p>
+              <p><strong>Mission 4 :</strong> Importation des données depuis la base web vers la base de données
+                embarquée.</p>
+              <p><strong>Mission 5 :</strong> Exportation des données de la base embarquée vers la base web.</p>
             </div>
           </div>
-
-          <div class="col-lg-12">
-            <h2>Compétences mobilisées</h2>
-            <div class="table-responsive">
-              <table class="table table-bordered text-center align-middle">
-                <thead class="table-dark">
-                  <tr>
-                    <th>SEG - Semestre 4 – Gestion des eaux – Android</th>
-                    <th>Gérer le patrimoine informatique</th>
-                    <th>Répondre aux incidents et demandes d’évolution</th>
-                    <th>Développer la présence en ligne</th>
-                    <th>Travailler en mode projet</th>
-                    <th>Mettre à disposition un service</th>
-                    <th>Organiser son développement professionnel</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Mise en place de WebServices REST</strong></td>
-                    <td></td>
-                    <td>✔️</td>
-                    <td></td>
-                    <td>✔️</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><strong>Déploiement de l’API REST sur GlassFish</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>✔️</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><strong>Création de l’application mobile « appli_gest_vannes »</strong></td>
-                    <td></td>
-                    <td>✔️</td>
-                    <td></td>
-                    <td></td>
-                    <td>✔️</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
         </div>
+
+
+
+        <div class="col-lg-12">
+          <h2>Compétences mobilisées</h2>
+          <div class="table-responsive">
+            <table class="table table-bordered text-center align-middle">
+              <thead class="table-dark">
+                <tr>
+                  <th>SEG - Semestre 4 – Gestion des eaux – Android</th>
+                  <th>Gérer le patrimoine informatique</th>
+                  <th>Répondre aux incidents et demandes d’évolution</th>
+                  <th>Développer la présence en ligne</th>
+                  <th>Travailler en mode projet</th>
+                  <th>Mettre à disposition un service</th>
+                  <th>Organiser son développement professionnel</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Mise en place de WebServices REST</strong></td>
+                  <td></td>
+                  <td>✔️</td>
+                  <td></td>
+                  <td>✔️</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Déploiement de l’API REST sur GlassFish</strong></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>✔️</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Création de l’application mobile « appli_gest_vannes »</strong></td>
+                  <td></td>
+                  <td>✔️</td>
+                  <td></td>
+                  <td></td>
+                  <td>✔️</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
       </div>
     </section>
   </main>
@@ -208,4 +235,5 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
